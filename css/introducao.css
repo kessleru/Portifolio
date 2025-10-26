@@ -67,15 +67,15 @@
     left: 0px;
     top: -10px;
   }
+
+  .introducao img{
+    display: none;
+  }
 }
 
 @media (max-width: 650px) {
   .introducao {
     grid-template-columns: 1fr;
     justify-items: center;
-  }
-
-  .introducao img{
-    display: none;
   }
 }
