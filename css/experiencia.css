@@ -83,7 +83,7 @@
 }
 
 .empresa-habilidades li:hover {
-  background: linear-gradient(135deg,#b629f8, #800add);
+  background: linear-gradient(135deg,#b629f8, #800add 40%);
 }
 
 @media (max-width: 800px) {

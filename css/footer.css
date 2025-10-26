@@ -6,6 +6,7 @@
   padding: 120px 20px 60px 20px;
   grid-template-columns: 1fr 1fr;
   align-items: center;
+  gap: 40px 300px;
 }
 
 .footer-texto {
@@ -15,11 +16,10 @@
 }
 
 .footer-contato li {
-  font-weight: bold;
-  font-size: 2.25rem;
+  font-size: 1.5rem;
   line-height: 1.1;
   color: #141414;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .footer-copy {
