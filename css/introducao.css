@@ -1,6 +1,53 @@
 .introducao {
   align-items: center;
-  margin-top: 100px;
+  margin-top: 50px;
+}
+
+.viewport::after {
+  content: '';
+  display: block;
+  width: 52px;
+  height: 52px;
+  background: url('../img/detalhe2.svg');
+  position: absolute;
+  top: 120px;
+  right: 100px;
+}
+
+.viewport::before {
+  content: '';
+  display: block;
+  width: 52px;
+  height: 52px;
+  background: url('../img/detalhe2.svg');
+  position: absolute;
+  top: 120px;
+  left: 100px;
+  transform: rotate(270deg);
+}
+
+.header::before {
+  content: '';
+  display: block;
+  width: 52px;
+  height: 52px;
+  background: url('../img/detalhe2.svg');
+  position: absolute;
+  bottom: 120px;
+  right: 100px;
+  transform: rotate(90deg);
+}
+
+.header::after {
+  content: '';
+  display: block;
+  width: 52px;
+  height: 52px;
+  background: url('../img/detalhe2.svg');
+  position: absolute;
+  bottom: 120px;
+  left: 100px;
+  transform: rotate(180deg);
 }
 
 .introducao h1{
@@ -123,6 +170,30 @@
 
   .introducao img{
     display: none;
+  }
+
+  .introducao::after { 
+    display: none;
+  }
+
+  .introducao::before {
+    display: none;
+  }
+  
+  .header::after {
+    bottom: 160px;
+  }
+
+  .header::before {
+    bottom: 160px;
+  }
+
+  .viewport::after {
+    top: 160px;
+  }
+
+  .viewport::before {
+    top: 160px;
   }
 }
 
