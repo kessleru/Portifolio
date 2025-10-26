@@ -1,11 +1,13 @@
 body {
-  font-family: 'Fira Sans', Arial, Helvetica, sans-serif;
+  font-family: "Fira Sans", Arial, Helvetica, sans-serif;
   margin: 0px;
   color: #141414;
-  
 }
 
-h1, h2, h3, p {
+h1,
+h2,
+h3,
+p {
   margin: 0px;
 }
 
@@ -27,6 +29,7 @@ img {
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 100px;
+  position: relative;
 }
 
 .subtitulo {
