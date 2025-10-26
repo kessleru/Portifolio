@@ -132,13 +132,15 @@
   }
   .formacao .subtitulo {
     color: #ffffff;
-    max-width: none;
   }
   .formacao-texto {
     font-size: 1.25rem;
   }
   .formacao-extra h3::before {
-    position: initial;
-    margin-bottom: 10px;
+    position: relative;
+    display: inline-block;
+    left: 0px;
+    top: 5px;
+    margin-right: 10px;
   }
 }
