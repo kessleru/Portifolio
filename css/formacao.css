@@ -1,21 +1,20 @@
 .formacao {
- background: #141414;
- color: #fff;
+ background: white;
 }
 
-.container-formacao::after {
+.formacao::before {
   content: "";
   display: block;
   width: 130px;
   height: 100px;
   background: url("../img/detalhe.svg") no-repeat center;
-  position: absolute;
-  bottom: -50px;
-  left: 20px;
+  position: relative;
+  top: -50px;
+  right: -460px;
 }
 
 .formacao .subtitulo {
-  color: #000;
+  color: #e0e0e0;
   max-width: 5ch;
 }
 
@@ -24,11 +23,11 @@
   line-height: 1.33;
   max-width: 40ch;
   margin-bottom: 60px;
-  color: #a3a3a3;
+  color: #525252;
 }
 
 .formacao-texto strong {
-  color: #ffffff;
+  color: #141414;
 }
 
 .faculdade-lista {
@@ -40,17 +39,18 @@
 
 .faculdade {
   flex: 1;
-  background: #000000;
+  background: #e5e5e5;
   padding: 20px;
   border-radius: 4px;
   display: flex;
   flex-direction: column;
+  border: solid 1px #e0e0e0;
 }
 
 .faculdade-tipo {
   font-size: 0.875rem;
   text-transform: uppercase;
-  color: #a3a3a3;
+  color: #292929;
   margin-bottom: 10px;
 }
 
@@ -60,6 +60,7 @@
   line-height: 1.4;
   margin-bottom: 40px;
   position: relative;
+  color: #141414;
 }
 
 .faculdade-curso::before {
@@ -67,7 +68,7 @@
   display: block;
   width: 4px;
   height: 20px;
-  background: linear-gradient(#b6f829, #67dd0a);
+  background: linear-gradient(#b629f8, #800add);
   position: absolute;
   left: -21.5px;
   top: 1.5px;
@@ -75,7 +76,7 @@
 
 .faculdade-instituicao {
   font-size: 1.125rem;
-  color: #a3a3a3;
+  color: #292929;
 }
 
 .cursos {
@@ -85,7 +86,7 @@
 .formacao-extra h3 {
   font-size: 0.875rem;
   line-height: 1.4;
-  color: #8f8f8f;
+  color: #292929;
   text-transform: uppercase;
   margin-bottom: 30px;
   position: relative;
@@ -113,6 +114,7 @@
   font-size: 1.125rem;
   line-height: 1.1;
   margin-bottom: 20px;
+  color: #525252;
 }
 
 .formacao-extra span {
@@ -122,6 +124,11 @@
 .cursos li {
   display: flex;
   justify-content: space-between;
+  color: #292929;
+}
+
+.idiomas li {
+  color: #292929;
 }
 
 @media (max-width: 800px) {
@@ -131,7 +138,7 @@
     gap: 40px;
   }
   .formacao .subtitulo {
-    color: #ffffff;
+    color: #141414;
   }
   .formacao-texto {
     font-size: 1.25rem;

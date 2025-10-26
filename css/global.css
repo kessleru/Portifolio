@@ -1,7 +1,8 @@
 body {
   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
   margin: 0px;
-  color: #141414;
+  color: white;
+  background: black;
 }
 
 h1,
@@ -46,5 +47,23 @@ img {
     font-size: 3rem;
     text-transform: capitalize;
     max-width: initial !important;
+  }
+}
+
+.viewport {
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(40px);
+  animation: fadeIn 1s ease forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }

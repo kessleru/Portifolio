@@ -1,5 +1,9 @@
 .experiencia .subtitulo {
-  color: #e0e0e0; 
+  color: #000000; 
+}
+
+.experiencia {
+  background: #141414;
 }
 
 .experiencia-texto {
@@ -7,11 +11,11 @@
   line-height: 1.33;
   max-width: 40ch;
   margin-bottom: 60px;
-  color: #525252;
+  color: #ccc;
 }
 
 .experiencia-texto strong {
-  color: #141414;
+  color: white;
 }
 
 .empresa {
@@ -19,10 +23,11 @@
   grid-template-columns: 1fr 1fr;
   gap: 10px 20px;
   padding: 20px;
-  background: #f5f5f5;
+  background: #090909;
   margin-bottom: 20px;
   border-radius: 4px;
   position: relative;
+  border: solid 1px #000000;
 }
 
 .empresa::before {
@@ -30,7 +35,7 @@
   display: block;
   width: 4px;
   height: 20px;
-  background: linear-gradient(#b6f829, #67dd0a);
+  background: linear-gradient(#b629f8, #800add);
   position: absolute;
   top: 20px;
   left: -1.5px;
@@ -40,7 +45,7 @@
   position: absolute;
   top: 22px;
   left: -100px;
-  color: #525252;
+  color: #e0e0e0;
   font-size: .875rem;
   text-align: right;
   width: 80px;
@@ -50,12 +55,13 @@
   font-size: 1.125rem;
   line-height: 1.1;
   font-weight: bold;
+  color: #f0f0f0;
 }
 
 .empresa-texto {
   font-size: 0.875rem;
   line-height: 1.4;
-  color: #525252;
+  color: #e0e0e0;
 }
 
 .empresa-habilidades {
@@ -69,13 +75,15 @@
   font-size: 0.875rem;
   line-height: 1.4;
   border-radius: 4px;
-  background: #ffffff;
+  background: #141414;
   padding: 5px 10px;
   cursor: default;
+  color: #e0e0e0;
+  border: solid 1px #000000;
 }
 
 .empresa-habilidades li:hover {
-  background: linear-gradient(#b6f829, #67dd0a);
+  background: linear-gradient(135deg,#b629f8, #800add);
 }
 
 @media (max-width: 800px) {
@@ -85,7 +93,7 @@
   }
 
   .experiencia .subtitulo {
-    color: #141414;
+    color: white;
   }
 
   .experiencia-texto {
