@@ -151,3 +151,9 @@
     margin-right: 10px;
   }
 }
+
+@media (max-width: 800px) {
+  .formacao::before{
+    display: none;
+  }
+}
