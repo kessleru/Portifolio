@@ -16,7 +16,7 @@
 .header-img-pseudo::before {
   content: '';
   display: block;
-  width: 17px;
+  width: 15px;
   height: 3px;
   background: #269E24;
   position: absolute;
