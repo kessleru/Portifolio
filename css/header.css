@@ -7,6 +7,33 @@
   align-items: center; /*alinhar os links com o centro do header*/
 }
 
+
+.header-img-pseudo {
+  position: relative;
+  display: block;
+}
+
+.header-img-pseudo::before {
+  content: '';
+  display: block;
+  width: 18px;
+  height: 3px;
+  background: #269E24;
+  position: absolute;
+  left: 106px;
+  bottom: 8px;
+  animation: blink 2.5s infinite;
+}
+
+@keyframes blink{
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
 .header-menu {
   display: flex;
   flex-wrap: wrap;
